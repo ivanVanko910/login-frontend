@@ -13,10 +13,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd frontend
+          
           npm install
 
       - name: Build project
         run: |
-          cd frontend
           npm run build
